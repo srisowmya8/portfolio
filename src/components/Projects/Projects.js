@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import examseating from "../../Assets/Projects/examseating.png";
+import chatbot from "../../Assets/Projects/chatbot.png";
+import diabetes from "../../Assets/Projects/diabetes.png";
 
 function Projects() {
   return (
@@ -18,70 +18,37 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
-            />
-          </Col> */}
+          
+          
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chatbot}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Chatbot Song Recommender"
+              description="The Chatbot Song Recommender is an innovative web application that utilizes a chatbot interface to suggest songs based on user preferences. Built with React and integrated with a machine learning model, it analyzes user input and recommends songs from a curated database. The application aims to enhance the music discovery experience by providing personalized song suggestions in an interactive manner."
+              ghLink="https://github.com/srisowmya8/chatbot-song-recommender"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={examseating}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
-            />
-          </Col> */}
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="FOOD4ALL"
-              description="FoodForAll is a sustainable food-sharing platform designed to connect users who want to donate leftover food with those in need. Built using the MERN stack, it allows users to post 
-              food donations, select recipients, and coordinate pickups. The platform emphasizes reducing food waste and promoting community sharing."
-              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              title="Exam Seating Automation System"
+              description="The Exam Seating Automation System is a web application designed to streamline the process of assigning seating arrangements for examinations. Built using the MERN stack, it allows administrators to manage student data, exam schedules, and seating plans efficiently. The system automates the allocation of seats based on predefined criteria, ensuring a fair and organized examination environment."
+              ghLink="https://github.com/srisowmya8/Exam-Seating-System"
               // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={diabetes}
               isBlog={false}
-              title="PIZZA PLANK"
-              description="PizzaPlank is a dynamic pizza delivery app built with React. Initially, it supported a fixed set of six pizza items. I enhanced it by integrating a backend to fetch live data from a database, making the pizza menu dynamic and real-time. The app allows users to browse, order, 
-              and track deliveries, offering a smooth, user-friendly experience with a focus on efficient functionality."
-              ghLink="https://github.com/SrinehaMukku/PIZZA_PLANK"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Image Captioning"
-              description="In this project, I developed an image captioning system that automatically generates descriptive 
-              captions for uploaded images. Using deep learning models, I trained the system on large datasets and integrated computer vision techniques to recognize objects in images. The goal was to create an application that can describe any given image with meaningful, human-like captions."
-              // ghLink="http"
+              title="Diabetes Prediction"
+              description="The Diabetes Prediction System is a machine learning-based web application that predicts the likelihood of diabetes in individuals based on their health parameters. Developed using Flask and integrated with a machine learning model, it analyzes user input data and provides predictions along with insights. The application aims to raise awareness about diabetes risk factors and promote preventive healthcare measures."
+              ghLink="https://github.com/srisowmya8/diabetes-prediction"
             />
           </Col>
         </Row>

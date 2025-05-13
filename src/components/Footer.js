@@ -13,7 +13,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Neha_mukku</h3>
+          <h3>Designed and Developed by srisowmya</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} MN</h3>
@@ -22,7 +22,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/SrinehaMukku"
+                href="https://github.com/srisowmya8"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -42,7 +42,7 @@ function Footer() {
             </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/srineha-mukku-b6669a275/"
+                href="https://www.linkedin.com/in/sri-sowmya-indlamudi-7a5415257/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -50,7 +50,7 @@ function Footer() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="https://www.instagram.com/ne_ha_2305/profilecard/?igsh=M3JocWJlZG9sanAx"
                 style={{ color: "white" }}
@@ -59,7 +59,7 @@ function Footer() {
               >
                 <AiFillInstagram />
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>
